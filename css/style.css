@@ -1,0 +1,512 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* font-family: 'Playfair Display', serif;
+font-family: 'Work Sans', sans-serif; */
+header{
+    width: 100%;
+    padding: 20px 0;
+    position: absolute;
+    z-index: 9999;
+}
+header .navbar a img{
+    width: 80px;
+}
+.nav-link{
+    font-size: 12px;
+    font-weight: 400;
+    color: #bfbfbf !important;
+    font-family: 'Work Sans', sans-serif; 
+}
+.nav-link:hover{
+    color: white !important;
+}
+
+/* Baner Section Start Here */
+.baner{
+    background: url(../img/home-7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 110px 0;
+    z-index: 1;
+}
+.opacity{
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
+.rab{
+    text-align: center;
+    color: white;
+}
+.rab h6{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700; 
+}
+.rab h1{
+    font-family: 'Playfair Display', serif;
+    padding: 0 200px;
+    font-weight: 700;
+    font-size: 35px; 
+}
+.rab h1 span{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+.rab button{
+    font-family: 'Work Sans', sans-serif;
+    /* padding: 10px 20px; */
+    border: none;
+    font-size: 12px;
+    color: white;
+    font-weight: 700;
+    background: #252525;
+}
+.rab button:hover{
+    background: #444;
+}
+.econ{
+    text-align: center;
+    margin-top:  90px;
+}
+.econ a i{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: rgba(255,255,255,0.65);
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.65);
+}
+.econ a i:hover{
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+/* Here is Start text Section */
+.about{
+    width: 100%;
+    padding: 90px 0;
+}
+.aboud h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+.aboud p{
+    font-family: 'Work Sans', sans-serif;
+    padding: 0 170px;
+}
+
+/* Here Is Start Our Count Section */
+.count{
+    width: 100%;
+    padding: 80px 0;
+    background: url(../img/bg-pattern.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.count{
+    color: white;
+}
+.counta{
+    vertical-align: middle;
+    text-align: right;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+/* Start Here Project Section */
+.project{
+    width: 100%;
+    padding: 50px 0;
+}
+.pro h1{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+.pro p{
+    text-align: center;
+    padding: 0 180px;
+    font-family: 'Work Sans', sans-serif;
+}
+.projec img{
+    width: 33.33%;
+    height: 350px;
+    overflow: hidden;
+} 
+.projec h3{
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+.projec span{
+    /* margin-bottom: 0;
+    padding-bottom: 0; */
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+.promaster{
+    position: relative;
+}
+.hover{
+    position: absolute;
+    background-color: rgba(0,0,0,0.85);
+    /* top: 0; */
+    bottom: 0;
+    left: 0;
+    right: 745px;
+    padding: 100px;
+    /* display: none; */
+    height: 0;
+
+}
+.promaster:hover .hover{
+    /* display: block; */
+    bottom: 0;
+    height: 100%;
+}
+
+/* here is slide Section Start */
+.slid{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px: ;
+    background: url(../img/bg-pattern1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 75vh;
+}
+/* body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background: linear-gradient(#01579B, #03A9F4);
+    background-repeat: no-repeat
+} */
+
+/* .card-main {
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0px 4px 8px 0px #283593
+} */
+
+/* .card-0 {
+    color: #fff;
+    background-color: #536DFE;
+    position: relative;
+    margin-left: 70px;
+    border-radius: 10px;
+    min-height: 312px
+} */
+
+.carousel-indicators li {
+    cursor: pointer;
+    border-radius: 50% !important;
+    width: 10px;
+    height: 10px
+}
+.carousel-indicators{
+    bottom: -130px;
+}
+.carousel-item h4{
+    line-height: 40px;
+    padding: 0px 20px;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;    
+}
+.carousel-item p{
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    color: white;
+    text-align: center;
+}
+/* .profile {
+    color: #000;
+    background-color: #FFD54F;
+    position: absolute;
+    left: -70px;
+    top: 17%;
+    border-radius: 8px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px
+} */
+
+/* .open-quotes {
+    margin-left: 130px;
+    margin-top: 100px
+} */
+
+/* .content {
+    margin-left: 150px;
+    margin-right: 80px
+} */
+
+/* .close-quotes {
+    margin-bottom: 100px;
+    margin-right: 60px
+} */
+
+@media screen and (max-width: 600px) {
+    .card-main {
+        padding: 50px 10px
+    }
+
+    .card-0 {
+        min-height: 432px
+    }
+
+    .profile {
+        top: 24%
+    }
+
+    .profile-pic {
+        width: 90px;
+        height: 90px
+    }
+
+    .open-quotes {
+        margin-left: 100px
+    }
+
+    .content {
+        margin-left: 120px;
+        margin-right: 50px
+    }
+
+    .close-quotes {
+        margin-right: 30px
+    }
+}
+
+/* Here Is Start Slider Section */
+.slide{
+    width: 100%;
+    padding: 0 0;
+}
+.slide .owl-carousel img{
+    display: inline-block;
+    width: auto;
+}
+.owl-stage{
+    display: flex !important;
+    align-items: center !important;
+}
+.owl-theme .owl-controls .owl-page span{
+    display: none !important;
+}
+/* .owl-theme .owl-dots, .owl-theme .owl-nav{
+    display: none !important;
+} */
+
+/* Here Is Start Card Section */
+.cardd{
+    width: 100%;
+    padding: 90px 0;
+    background: #FAFAFA;
+    border: none;
+}
+.carb h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 44px; 
+}
+.carb p{
+    font-family: 'Work Sans', sans-serif;
+    padding: 0 170px;
+}
+.card{
+    border: none;
+}
+.nature p{
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-block;
+    padding: 5px 24px;
+    color: white;
+    background: #252525;
+    position: absolute;
+    bottom: -5px;
+    left: 10px;
+}
+.custom-img{
+    position: relative;
+}
+.nature p:hover{
+    cursor: pointer;
+    background: #393939;
+}
+.custom-img img:hover{
+    filter: opacity(0.5);
+}
+.testimonial-content{
+    background: #FFFFFF;
+    padding: 15px 10px;
+}
+/* .owl-theme .owl-controls .owl-page span{
+    display: block !important;
+} */
+/*  */
+.testimonial{
+    /* background: #fff; */
+    /* text-align: center; */
+    /* padding: 30px 30px 50px; */
+    margin: 0 15px 50px;
+    /* position: relative; */
+}
+/* .testimonial:before,
+.testimonial:after{
+    content: "";
+    border-top: 40px solid #fff;
+    border-right: 125px solid transparent;
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+} */
+/* .testimonial:after{
+    border-right: none;
+    border-left: 125px solid transparent;
+    left: auto;
+    right: 0;
+} */
+/* .testimonial .icon{
+    display: inline-block;
+    font-size: 80px;
+    color: #bd986b;
+    margin-bottom: 20px;
+    opacity: 0.6;
+} */
+/* .testimonial .description{
+    font-size: 15px;
+    color: #777;
+    text-align: left;
+    margin-bottom: 30px;
+    opacity: 0.8;
+} */
+.testimonial .testimonial-content{
+    width: 100%;
+    /* position: absolute; */
+    /* left: 0; */
+}
+/* .testimonial .pic{
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 2px #daad86;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+} */
+/* .testimonial .pic img{
+    width: 100%;
+    height: auto;
+} */
+/* .testimonial .title{
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0 0 5px 0;
+} */
+/* .testimonial .post{
+    display: block;
+    font-size: 14px;
+    color: #ffd9b8;
+} */
+/* .owl-theme .owl-controls{
+    margin-top: 0;
+} */
+/* .owl-theme .owl-controls .owl-page span{
+    width: 32px;
+    height: 10px;
+    background: #fff;
+    border: 2px solid #bd986b;
+    margin: 5px;
+    opacity: 1;
+} */
+/* .owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+    background: #ffd9b8;
+    border-color: #fff;
+} */
+/* @media only screen and (max-width: 650px) and (min-width: 400px){
+    .testimonial:before{ border-right: 325px solid transparent; }
+    .testimonial:after{ border-left: 325px solid transparent; }
+} */
+
+/* Here Is Start Form Section */
+.forom{
+    width: 100%;
+    padding: 80px 0;
+    background: #F6F6F6;
+}
+.col-md-5 h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 44px; 
+}
+.col-md-5 p{
+    font-family: 'Work Sans', sans-serif;
+    /* padding-right: -66px; */
+}
+.col-md-5 h6{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+.col-md-5 h6 span{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.form-floating .form-control{
+    border: none;
+    border-radius: 0;
+}
+button{
+    background: #252525;
+    width: 170px;
+    height: 60px;
+    border: none;
+    color: white;
+}
+button:hover{
+    background: #444444;
+}
+
+/* Here Is Start Footer Section */
+.foot{
+    width: 100%;
+    padding: 50px 0;
+    background: #EBEBEB;
+}
+.foot ul li{
+    margin: 0 10px;
+    display: inline-block;
+}
+.foot ul{
+    text-align: center !important;
+}
+.foot a{
+    
+}

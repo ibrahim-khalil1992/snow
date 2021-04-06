@@ -1,0 +1,102 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    .baner {
+        /* height: 100vh; */
+    }
+    .rab h1 {
+        padding: 0px;
+    }
+    .aboud p {
+        padding: 0px;
+    }
+    .counta {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: -6px;
+    }
+    .col-md-9{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .counter{
+        margin-bottom: 0px;
+    }
+    .count{
+        padding: 30px  0px;
+    }
+    .pro p {
+        padding: 0px;
+    }
+    .slid {
+        padding: 80px 0px;
+    }
+    .carb p {
+        padding: 0px;
+    }
+    .cardd {
+        padding: 30px 0;
+    }
+    
+  }
+  
